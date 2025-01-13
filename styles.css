@@ -1,0 +1,81 @@
+/* General Reset */
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #F4F4F4; /* Light gray background */
+  color: #000000; /* Black text */
+}
+
+/* Header */
+header {
+  background-color: #000000; /* Black */
+  color: #FFFFFF; /* White */
+  padding: 1em 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li {
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+/* Sections */
+.section {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #FFFFFF; /* White for contrast */
+}
+
+.section:nth-child(even) {
+  background-color: #F4F4F4; /* Light gray for alternating sections */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Buttons */
+button {
+  background-color: #A387FF; /* Future Dusk */
+  color: #FFFFFF; /* White text */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #CC1236; /* Cherry Lacquer */
+}
+
+/* Footer */
+footer {
+  background-color: #000000; /* Black */
+  color: #FFFFFF; /* White */
+  text-align: center;
+  padding: 10px 0;
+}
